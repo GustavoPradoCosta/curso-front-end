@@ -16,7 +16,7 @@ Praticar e consolidar fundamentos de HTML e CSS.
 
 ## Como visualizar
 
-Baixe a pasta do projeto no seu computador;
+Baixe a pasta do projeto no seu computador.
 Abra o arquivo index.html no navegador.
 
 ## Autor
