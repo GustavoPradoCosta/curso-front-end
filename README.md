@@ -14,6 +14,10 @@ Repositório com exercícios e projetos desenvolvidos durante meus estudos de Fr
 
 Praticar e consolidar fundamentos de HTML e CSS.
 
+## Como visualizar
+
+Abra o arquivo index.html no navegador.
+
 ## Autor
 
 Gustavo Prado Costa
