@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning CSS</title>
+    <style>
+      p {
+        color: blue;
+      }
+    </style>
+
+    <!--Here, we will put the link to css file-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lists.css" />
+  </head>
+  <body>
+    <div>
+      <!--Inline style-->
+      <h1 style="color: red">Welcome to CSS</h1>
+      <hr />
+      <h1 style="color: black">
+        Today we will learn about CSS basics and styling.
+      </h1>
+      <hr />
+    </div>
+    <div>
+      <!--External style-->
+      <h2>In this title, was used the external style CSS to paint in green.</h2>
+      <hr />
+    </div>
+    <div>
+      <h3 style="color: red">
+        In this title, was used the inline style CSS to paint in red.
+      </h3>
+      <hr />
+
+      <!--Internal style-->
+      <p>
+        In this paragraph, was used the internal style CSS to paint in blue.
+      </p>
+      <hr />
+    </div>
+    <div>
+      <!--Multiple CSS files-->
+      <h3>Multiple CSS Files and CSS styles</h3>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+      <hr />
+    </div>
+    <div>
+      <!--In this line we will see the "class" in action-->
+      <p class="highlight">
+        This is a paragraph with the "highlight" class applied, which gives it a
+        yellow background.
+      </p>
+    </div>
+    <div>
+      <!--In this line we will see the "Id" working-->
+      <h1 id="exclusive-title">This is a title with an ID applied.</h1>
+    </div>
+    <div>
+    <!--rules on CSS-->
+        <h2 id="first-title" class="title">Multiple rules on CSS 1</h2>
+        <h2 class="second-title">Multiple rules on CSS 2</h2>
+        <h2>Multiple rules on CSS 3</h2>
+    </div>
+    <div>
+    <!--In this line we will see the "color name" using the hexadecilmal names and class names-->
+    <p class="color-name"></p>
+    <h2 class="color-name">Colors in the text</h2>
+    <hr> 
+    <p class="hex">Hexadecimal colors</p>
+    </div>
+  </body>
+</html>
