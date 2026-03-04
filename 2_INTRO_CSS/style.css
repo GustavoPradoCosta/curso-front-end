@@ -2,6 +2,9 @@
 body {
     padding-bottom: 500px;
 }
+.bg {
+    background-color: black;
+}
 h2 {
     color:green;
 }
@@ -17,6 +20,7 @@ h2 {
     background-color: purple;
     padding: 10px;
 }
+
 /*rules orders on CSS*/
 #first-title {
     border-bottom: 2px solid red;
@@ -33,4 +37,38 @@ h2 {
 }
 .hex {
     color: #0ff506;
+}
+
+/*RGB function*/
+.rgb {
+    color:rgb(255, 0, 0);
+}
+.mixed-rgb {
+    color: rgb(100, 150, 200);
+}
+
+/*RGBa function*/
+.rgba {
+    color: rgba(235, 49, 45, 0.89);
+}
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+.hsl-2 {
+    color: hsl(200, 50%, 70%);
+}
+
+/*background color function*/
+.bg-2 {
+    background-color: white;
+    color: blue;
+}
+.bg-opacity p {
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+}
+.bg-opacity h1 {
+    background-color: rgb(255, 255, 255, 0.5);
+    color: black;
 }

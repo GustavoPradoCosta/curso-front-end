@@ -4,41 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning CSS</title>
-    <style>
-      p {
-        color: blue;
-      }
-    </style>
-
     <!--Here, we will put the link to css file-->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="lists.css" />
+    <style>
+      p {
+        color: yellow;
+      }
+    </style>
   </head>
-  <body>
-    <div>
+  <!--In this line we will see the "background-color" property in action-->
+  <body class="bg">
       <!--Inline style-->
       <h1 style="color: red">Welcome to CSS</h1>
       <hr />
-      <h1 style="color: black">
+      <h1 style="color: pink">
         Today we will learn about CSS basics and styling.
       </h1>
       <hr />
-    </div>
     <div>
       <!--External style-->
-      <h2>In this title, was used the external style CSS to paint in green.</h2>
+      <h2>In this title, we will use the external style CSS to paint in green.</h2>
       <hr />
     </div>
     <div>
       <h3 style="color: red">
-        In this title, was used the inline style CSS to paint in red.
+        In this title, we will use the inline style CSS to paint in red.
       </h3>
-      <hr />
-
+      <hr/>
       <!--Internal style-->
-      <p>
-        In this paragraph, was used the internal style CSS to paint in blue.
-      </p>
+      <p>In this paragraph, we will use the internal style CSS to paint in yellow.</p>
       <hr />
     </div>
     <div>
@@ -75,6 +70,30 @@
     <h2 class="color-name">Colors in the text</h2>
     <hr> 
     <p class="hex">Hexadecimal colors</p>
+    <div>
+      <!--Here we will use the rgb function-->
+      <p class="rgb">This text was styled using the RGB function.</p>
+      <p class="mixed-rgb">This text was styled using the RGB function.</p>
+      <hr>
+    </div>
+    <div>
+      <!--Here we will use the rgba function-->
+      <p class="rgba">This text was styled using the RGBA function.</p>
+    </div>
+    <div>
+      <!--Here we will use the hsl function-->
+      <p class="hsl">This text was styled using the HSL function.</p>
+      <p class="hsl-2">This text was styled using the HSL function with a different hue.</p>
+    </div>
+    <div>
+    <!--Background-color-->
+    <h2 class="bg-2">Change my background color</h2>
+    <p class="bg-2">Another paragraph with background color</p>
+    </div>
+    <!-- Background-opacity-->
+    <div class="bg-opacity">
+    <p>Im a background opacity</p>
+    <h1>I need to be visible</h1>
     </div>
   </body>
 </html>
