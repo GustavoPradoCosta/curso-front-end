@@ -66,9 +66,48 @@ h2 {
 .bg-opacity p {
     background-color: white;
     color: black;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .bg-opacity h1 {
     background-color: rgb(255, 255, 255, 0.5);
     color: black;
 }
+.bg-image {
+    background-image: url("Imagens/imagem programação.jpg");
+    color: white;
+}
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("Imagens/imagem programação.jpg");
+}
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+/*height and width*/
+.height-width {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+/*padding*/
+.without-padding {
+    background-color: #584;
+    color: #fff;
+}
+.padding {
+    padding: 20px;
+    background-color: white;
+}
+/*individual padding*/
+.individual-padding {
+    background-color: white;
+    color: black;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
