@@ -7,11 +7,6 @@
     <!--Here, we will put the link to css file-->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="lists.css" />
-    <style>
-      p {
-        color: yellow;
-      }
-    </style>
   </head>
   <!--In this line we will see the "background-color" property in action-->
   <body class="bg">
@@ -32,8 +27,6 @@
         In this title, we will use the inline style CSS to paint in red.
       </h3>
       <hr/>
-      <!--Internal style-->
-      <p>In this paragraph, we will use the internal style CSS to paint in yellow.</p>
       <hr />
     </div>
     <!--Multiple CSS files-->
@@ -82,7 +75,7 @@
       <p class="rgba">This text was styled using the RGBA function.</p>
     </div>
      <!--Here we will use the hsl function-->
-    <div
+    <div>
       <p class="hsl">This text was styled using the HSL function.</p>
       <p class="hsl-2">This text was styled using the HSL function with a different hue.</p>
     </div>
@@ -114,11 +107,48 @@
     </div>
     <!--Padding-->
     <div class="without-padding">This has no padding</div>
+    <h3 style="color: white">Padding</h3>
     <br>
     <div class="padding">This have a padding</div>
     <!--Individual padding-->
     <div>
       <p class="individual-padding">This element has individual padding values.</p>
+    </div>
+    <!--Shorthand padding-->
+    <div>
+    <p class="shorthand-padding">This element has shorthand padding values.</p>
+    <p class="shorthand-padding-2">This is another paragraph with shorthand padding.</p>
+    </div>
+    <!--Padding with width-->
+    <div class="without-border-box">
+      <p>Some content</p>
+    </div>
+    <div class="border-box">
+      <p>Another content</p>
+      <br>
+    </div>
+    <!--Borders-->
+    <div class="border">Border</div>
+    <div class="border-2">Border 2</div>
+    </div>
+    <!--individual borders-->
+    <div>
+      <p class="border-left">This element has a left border.</p>
+      <P class="border-bottom">This element has a bottom border.</P>
+    </div>
+    <!--border-radius-->
+    <div>
+      <p class="border-radius">This element has rounded corners.</p>
+    </div>
+    <!--Margins-->
+    <div>
+    <div class="margin">I've got margins!</div>
+    <div class="margin-top">I've got a top margin!</div>
+    <div class="margin-shorthand">I've got shorthand margins!</div>
+    </div>
+    <!--box model elements together-->
+    <div class="box-model-elements">
+      <p>I have all the box model properties!</p>
     </div>
   </body>
 </html>
