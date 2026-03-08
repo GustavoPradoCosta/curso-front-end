@@ -7,6 +7,7 @@ body {
 }
 h2 {
     color:green;
+    border-bottom: 2px solid black;
 }
 /*classes*/
 .highlight {
@@ -27,9 +28,6 @@ h2 {
 }
 .second-title {
     border-bottom: 2px solid green;
-}
-h2 {
-    border-bottom: 2px solid black;
 }
 .color-name {
     color:rgb(226, 75, 105);
@@ -69,7 +67,7 @@ h2 {
     opacity: 0.3;
 }
 .bg-opacity h1 {
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     color: black;
 }
 .bg-image {
@@ -192,4 +190,151 @@ h2 {
     border-radius: 10px;
     width: 300px;
     height: auto;
+}
+/*text aligment*/
+.text-aligned-right {
+    text-align: right;
+    background-color: white;
+    color: black;
+}
+.text-aligned-center {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.text-aligned-left {
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+.container-center {
+    text-align: center;
+    background-color: #00e5ff;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid white;
+}
+/*text decoration and transformation*/
+.underline {
+    text-decoration: underline;
+    color: white;
+}
+.line-through {
+    text-decoration: line-through;
+    color: white;
+}
+.remove-underline {
+    text-decoration: none;
+    color: red;
+}
+.uppercase {
+    text-transform: uppercase;
+    color: white;
+}
+.lowercase {
+    text-transform: lowercase;
+    color: white;
+}
+.capitalize {
+    text-transform: capitalize;
+    color: white;
+}
+/*spacings*/
+.letter-spacing {
+    letter-spacing: 5px;
+    color: white;
+}
+.word-spacing {
+    word-spacing: 10px;
+    color: white;
+}
+/*font size and family*/
+.serif {
+    font-family: serif;
+    color: white;
+}
+.sans-serif {
+    font-family: sans-serif;
+    color: white;
+}
+.monospace {
+    font-family: monospace;
+    color: white;
+}
+.cursive {
+    font-family: cursive;
+    color: white;
+}
+.fantasy {
+    font-family: fantasy;
+    color: white;
+}
+.helvetica {
+    font-family: Helvetica;
+    color: white;
+}
+/*text style*/
+.normal {
+    font-style: normal;
+    color: white;
+}
+.italic {
+    font-style: italic;
+    color: white;
+}
+.oblique {
+    font-style: oblique;
+    color: white;
+}
+/*font weight*/
+.lighter-weight {
+    font-weight: 100;
+    color: white;
+    font-family: Helvetica;
+}
+.normal-weight {
+    font-weight: 600;
+    color: white;
+    font-family: Helvetica;
+}
+.bold-weight {
+    font-weight: 900;
+    color: white;
+    font-family: Helvetica;
+}
+/*font size*/
+.small-size {
+    font-size: 12px;
+    color: white;
+}
+.medium-size {
+    font-size: 16px;
+    color: white;
+}
+.large-size {
+    font-size: 32px;
+    color: white;
+}
+/*display*/
+.inline-display {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.inline-block {
+    display: block;
+    background-color: white;
+    color: black;
+}
+/*hide elements*/
+.display-none {
+    display:none;
+}
+.visibility-hidden {
+    visibility: hidden;
 }
