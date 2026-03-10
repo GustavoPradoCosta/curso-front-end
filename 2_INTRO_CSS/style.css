@@ -194,18 +194,18 @@ h2 {
 /*text aligment*/
 .text-aligned-right {
     text-align: right;
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 55, 255);
 }
 .text-aligned-center {
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 55, 255);
 }
 .text-aligned-left {
     text-align: left;
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 55, 255);
 }
 .container-center {
     text-align: center;
@@ -337,4 +337,80 @@ h2 {
 }
 .visibility-hidden {
     visibility: hidden;
+}
+.box {
+    width: 50%;
+    height: auto;
+    margin-bottom: 4px;
+    font-size: 20px;
+    position: relative;
+}
+/*static position*/
+.static {
+    position: static;
+    color: white;
+    background-color: #ff00ff;
+}
+/*relative position*/
+.relative {
+    position: relative;
+    color: white;
+    background-color: rgb(78, 139, 219);
+}
+/*absolute postion*/
+.absolute {
+    position: absolute;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+}
+.container-2 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: gray;
+  margin-top: 40px;
+}
+.container-2 h2 {
+    color: black;
+    border-bottom: none;
+    bottom: 30px;
+    right: 30px;
+    position: absolute;
+}
+.box-1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background: red;
+  font-size: 20px;
+  text-align: center;
+}
+.fixed {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    position: fixed;
+    background-color: blue;
+    text-align: center;
+    bottom: 20px;
+    right: 20px;
+}
+.fixed h2 {
+    padding: 10px;
+    color: black;
+    border: none
+}
+.sticky {
+    position: sticky;
+    background-color: #00e5ff;
+    top: 50px;
+    left: 50%;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+    transform: translateX(-50%);  
 }
