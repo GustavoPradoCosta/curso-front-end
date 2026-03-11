@@ -401,7 +401,7 @@ h2 {
 .fixed h2 {
     padding: 10px;
     color: black;
-    border: none
+    border: none;
 }
 .sticky {
     position: sticky;
