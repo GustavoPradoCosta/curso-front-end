@@ -1,0 +1,23 @@
+body {
+    padding-bottom: 500px;
+}
+div {
+    margin-bottom: 10px;
+}
+input,
+label {
+    display: block;
+}
+.radio label,
+.radio input,
+.radio span {
+    display: inline-block;
+}
+#placeholder {
+    width: 300px;
+    height: auto;
+}
+.buttons {
+    display: inline-flex;
+    margin-right: 20px;
+}

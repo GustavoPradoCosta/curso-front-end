@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2> Formulários HTML</h2>
+    <!--primeiro formulário-->
+    <!--atributos de formulário-->
+    <form action="register.php" method="get">
+        <label>Nome:</label>
+        <input type="text"/>
+    
+    <div>
+        <!--atributo da label-->
+        <label for="age">Idade:</label>
+        <!--atributo name-->
+        <input type="text" name="age">
+    </div>
+    <!--select-->
+    <div>
+        <label for="job">Selecione a sua profissão</label>
+        <select name="job">
+            <option value="programador">Programador</option>
+            <option value="tester">Tester/QA</option>
+            <option value="devops">DevOps</option>
+        </select>
+    </div>
+    <!--atributo selected-->
+    <div>
+        <label for="contract">Você leu os termos do contrato?</label>
+        <select name="contract">
+            <option value="sim">Sim</option>
+            <option value="nao" selected>Não</option>       
+        </select>
+    </div>
+    <!--multiplas opções-->
+    <div>
+        <label for="itens">Selecione os itens desejados:</label>
+            <select name="itens" multiple>
+            <option value="pera">Pera</option>
+            <option value="feijao">Feijão</option>
+            <option value="arroz">Arroz
+            <option value="milho">Milho</option>
+        </select>
+    </div>
+    <!--text area-->
+    <div>
+        <label for="comment">Escreva a baixo o que você achou do post:</label>
+        <textarea name="comment"></textarea>
+    </div>
+    <!-- fieldset e legend-->
+     <div>
+        <fieldset>
+            <legend>Preencha as suas informações:</legend>
+            <label for="first-name">Nome:</label>
+            <input type="text" name="first-name" id="first-name">
+            <label for="last-name">Sobrenome:</label>
+            <input type="text" name="last-name" id="last-name">
+        </fieldset>
+     </div>
+     <!--datalist-->
+     <div>
+        <label for="flavor">Escolha o sabor:</label>
+        <input type="text" name="flavor" list="flavors">
+
+        <datalist id="flavors">
+            <option value="Cereja"></option>
+            <option value="Morango"></option>
+            <option value="Abacaxi"></option>
+            <option value="Chocolate"></option>
+        </datalist>
+     </div>
+     <!--input para senha-->
+     <div>
+        <label for="password">Digite a sua senha:</label>
+        <input type="password" name="password">
+     </div>
+     <!--radio buttom-->
+     <div>
+        <label for="car-model">Escolha o modelo do seu carro:</label>
+        <div class="radio">
+            <input type="radio" name="car-model" value="bmw">
+            <label for="bmw">BMW</label>
+            <input type="radio" name="car-model" value="mercedes">
+            <label for="mercedes">Mercedes</label>
+        </div>
+     </div>
+     <!--checkbox-->
+     <div>
+        <label for="optionals">Opcionais do carro</label>
+        <div >
+            <input type="checkbox" name="optionals[]" value="big-tires">
+            <label for="big-tires">Pneus grandes</label>
+            <input type="checkbox" name="optionals[]" value="turbo-motor">
+            <label for="turbo-motor">Motor turbo</label>
+            <input type="checkbox" name="optionals[]" value="hibrid">
+            <label for="hibrid">Híbrido</label>
+        </div>
+     </div>
+     <!--datas-->
+     <div>
+        <label for="birthday">Data de nascimento</label>
+        <input type="date" name="birthday">
+     </div>
+    <!--input com arquivos-->
+    <div>
+        <label for="image">Insira uma imagem:</label>
+        <input type="file" name="image" id="image">
+    </div>
+    <!--input para números-->
+    <div>
+        <label for="number">Insira um número:</label>
+        <input type="number" name="number" id="number">
+    </div>
+    <!--input para e-mails-->
+    <div>
+        <label for="email">Insira seu e-mail:</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <!--atributo value-->
+    <div>
+        <label for="value">Digite algum valor:</label>
+        <input type="text" name="value" id="value" value="Meu valor é 2">
+    </div>
+    <!--atributo disabled-->
+    <div>
+        <label for="disable">Tente digitar algum valor:</label>
+        <input type="text" name="disable" id="disable" disabled>
+    </div>
+    <!--atributo placeholder-->
+    <div>
+        <label for="placeholder">Digite sua profissão:</label>
+        <input type="text" name="placeholder" id="placeholder" placeholder="No que você está trabalhando atualmente?">
+    </div>
+    <!--atributo required-->
+    <div>
+        <label for="important-info">Digite seu CPF:</label>
+        <input type="text" name="important-info" id="important-info" required>
+    </div>
+    <div class="buttons">
+     <!--reiniciar o formulário-->
+        <input type="reset" value="Limpar">
+    </div>
+    <div class="buttons">
+     <!--envio de form-->
+     <input type="submit" value="Enviar">
+     </div>
+    </form>
+</body>
+</html>
