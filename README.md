@@ -19,6 +19,10 @@ Praticar e consolidar fundamentos de HTML e CSS.
 1. Baixe a pasta do projeto no seu computador.
 2. Abra o arquivo index.html no navegador.
 
+Ou então acesse a nossa página de acesso rápido:
+
+https://gustavopradocosta.github.io/curso-front-end/acesso_rapido/
+
 ## Autor
 
 Gustavo Prado Costa
