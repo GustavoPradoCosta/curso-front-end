@@ -21,7 +21,7 @@ Praticar e consolidar fundamentos de HTML e CSS.
 
 Ou então acesse a nossa página de acesso rápido:
 
-https://gustavopradocosta.github.io/curso-front-end/acesso_rapido/
+https://gustavopradocosta.github.io/curso-front-end/9_QUICK_ACCESS/
 
 ## Autor
 
