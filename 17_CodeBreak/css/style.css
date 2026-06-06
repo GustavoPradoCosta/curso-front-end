@@ -1,0 +1,112 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+    background-color: purple;
+    padding: 60px;
+    border-radius: 20px;
+}
+h1 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+p {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#startButton {
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor:pointer;
+    border-radius: 20px;
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+/*tablets até 768px */ 
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 20px;
+        min-height: 100vh;
+        padding: 20px;
+        justify-content: center;
+    }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  #startButton {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+}
+
+/* Celulares (até 480px) */
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  #startButton {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+}
